@@ -50,12 +50,14 @@ Installation
 Clone the repository:
 
 Bash
+
 git clone https://github.com/<your-username>/weather-discord-bot.git
 (Remember to replace <your-username> with your actual GitHub username and weather-discord-bot with your chosen repository name.)
 
 Navigate to the project directory:
 
 Bash
+
 cd weather-discord-bot
 API Key Configuration
 Open the script.js file in your text editor.
