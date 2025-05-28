@@ -6,22 +6,34 @@ This is a sleek and responsive web-based weather application that provides real-
 
 Real-time Weather Data: Fetches and displays current weather conditions by integrating with the OpenWeatherMap API.
 Comprehensive Metrics: Provides detailed weather information at a glance:
+
 Temperature (°C)
 "Feels Like" Temperature (°C)
+
 Humidity (%)
+
 Wind Speed (KPH)
+
 Concise weather condition description (e.g., "Clear Sky," "Partly Cloudy")
+
 4-Day Forecast: Includes a horizontally scrollable section displaying future daily temperatures and conditions.
+
 Dynamic Visuals: Displays appropriate weather icons based on current conditions, and a custom background image with a captivating glassmorphism effect on the main container enhances the user experience.
+
 Responsive Design: The app's layout is designed to adapt to various screen sizes, ensuring a seamless experience on desktop, tablet, and mobile devices.
+
 Intuitive Interface: A clean design with an easy-to-use search bar allows for quick city lookups.
 
 💻 Technologies Used
 
 HTML5: Structures the core content of the web page.
+
 CSS3: Styles the application, implements responsive design, and creates the unique glassmorphism visual effects.
+
 JavaScript (ES6+): Handles all dynamic functionality, including API calls, data processing, and updating the DOM.
+
 OpenWeatherMap API: Provides the real-time weather and forecast data.
+
 Google Material Symbols: Used for various icons within the app (e.g., search, location, water drop, air).
 
 🚀 Getting Started
@@ -36,14 +48,14 @@ An OpenWeatherMap API Key: You'll need to sign up for a free account and obtain 
 Installation
 
 Clone the repository:
-Bash
 
+Bash
 git clone https://github.com/<your-username>/weather-discord-bot.git
 (Remember to replace <your-username> with your actual GitHub username and weather-discord-bot with your chosen repository name.)
 
 Navigate to the project directory:
-Bash
 
+Bash
 cd weather-discord-bot
 API Key Configuration
 Open the script.js file in your text editor.
@@ -54,6 +66,7 @@ const apiKey = '123456789'; // Paste here your API key
 Replace '123456789' with your actual OpenWeatherMap API key. Security Note: For client-side applications, API keys are exposed. For production environments, consider using a backend proxy to protect your key. For this demo, direct insertion is common practice.
 
 Running the Application
+
 Simply open the index.html file in your web browser. You can typically do this by double-clicking the file in your file explorer.
 The application will load, displaying the "Search City" message.
 
