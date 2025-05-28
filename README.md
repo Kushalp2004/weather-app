@@ -1,4 +1,5 @@
 ☀️ Modern Weather App
+
 This is a sleek and responsive web-based weather application that provides real-time weather conditions for any city worldwide. Built using pure HTML, CSS, and JavaScript, it offers essential information like temperature, humidity, wind speed, and a descriptive weather summary in a clean, intuitive, and visually appealing interface.
 
 ✨ Features
